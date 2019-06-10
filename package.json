@@ -1,0 +1,31 @@
+{
+  "name": "closecross-challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Andy92Pac/closecross-challenge.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Andy92Pac/closecross-challenge/issues"
+  },
+  "homepage": "https://github.com/Andy92Pac/closecross-challenge#readme",
+  "dependencies": {
+    "ethereumjs-util": "^6.1.0",
+    "ethjs": "^0.4.0",
+    "ganache-cli": "^6.4.3",
+    "ganache-core": "^2.5.5",
+    "openzeppelin-solidity": "^2.3.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "openzeppelin-test-helpers": "^0.4.0",
+    "prettier": "1.17.1"
+  }
+}
