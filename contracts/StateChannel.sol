@@ -60,13 +60,13 @@ contract StateChannel is ERC20Mintable {
      	require (message.recover(signature1) == account1, "signature1 invalid"); 
 
      	if (fromAccount0) {
-     		require (balanceOf(account0) >= amount, "balance not large enough");
+     		require (balanceOf(account0) >= amount, "balance is not large enough");
 
      		_approve(account0, msg.sender, amount);
      		transferFrom(account0, account1, amount);
      	}
      	else {
-     		require (balanceOf(account1) >= amount, "balance not large enough");  
+     		require (balanceOf(account1) >= amount, "balance is not large enough");  
 
      		_approve(account1, msg.sender, amount);
      		transferFrom(account1, account0, amount);
