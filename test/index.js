@@ -20,7 +20,7 @@ contract('StateChannel', ([owner, account0, account1, ...accounts]) => {
 	// ACCOUNTS 1 AND 2 FROM FOLLOWING MNEMONIC
 	// turkey museum identify return section guard page affair come private dilemma argue
 	// ganache should be launched with following command
-	// ganache-cli -m 'turkey museum identify return section guard page affair come privatdilemma argue'
+	// ganache-cli -m 'turkey museum identify return section guard page affair come private dilemma argue'
 	const publicKey0 = '0x32b36a49a8e2f5da9fb0fb0d5b3aff206c8aa730';
 	const publicKey1 = '0x9a2a98e9539f999ceef6c5b65bd0721446f03d50';
 	const privateKey0 = '0x5b72258a078305015a13c93cde7ca98feeb11681e3625bd0e3b835c000740485';
